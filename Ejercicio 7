@@ -1,0 +1,8 @@
+//Presentar los numeros multiplos de 3 del 3 al 21
+ let c=3, multiplos
+    for(c=3;c<=21;c++){
+        multiplos=c%3
+        if(multiplos==0){
+            console.log(c)
+        }
+    }
