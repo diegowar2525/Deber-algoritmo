@@ -1,0 +1,8 @@
+//Dado un arreglo presentar sus elementos
+let arreglo=[9,11,23,5,12]
+        let numero,i
+        for(i=0;i<arreglo.length;i++){
+            numero=arreglo[i]
+            if(numero.toString()<10)
+            console.log(numero)
+}
