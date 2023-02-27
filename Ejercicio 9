@@ -1,0 +1,11 @@
+//Dados dos nombres indicar si son iguales o diferentes
+let nombre1="Julio",nombre2="julio"
+nombre1=nombre1.toLowerCase()
+nombre2=nombre2.toLowerCase()
+console.warn("Los nombres son:", nombre1, nombre2)
+if(nombre1==nombre2){
+    console.log("Los nombres son iguales")
+}
+else{
+    console.log("Los nombres no son iguales")
+}
