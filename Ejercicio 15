@@ -1,0 +1,4 @@
+//Calcular el vuelto de una compra dado el costo y el pago
+let costo=75, pago=80.00, vuelto
+        vuelto=pago-costo
+        console.log(`El costo es:${costo}, El pago es:${pago}, El vuelto de la compra es:${vuelto}`)
