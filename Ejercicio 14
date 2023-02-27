@@ -1,0 +1,5 @@
+//Presentar el primero el medio y el ultimo valor de un arreglo
+let arreglo=[2,3,100,22,20,33]
+let longitud=Math.floor(arreglo.length/2)
+console.warn("El arreglo es:",arreglo)
+console.log("El primer numero es: ",arreglo[0],"El numero del medio es:",arreglo[longitud],"El ultimo numero es: ",arreglo[arreglo.length-1])
