@@ -1,0 +1,10 @@
+//Realizar la multiplicacion de dos numeros por medio de sumas sucesivas
+let num1 = Math.round((Math.random())*10)
+let num2 = Math.round((Math.random())*10)
+let acu=0, c=1
+    console.warn(num1,"*",num2,"=")
+    while(c<=num2){
+        acu=acu+num1
+        console.log(acu)
+        c=c+1
+    }
