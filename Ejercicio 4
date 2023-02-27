@@ -1,0 +1,3 @@
+//Dado un nombre presentarlo
+let nombre=prompt("Ingres un nombre")
+alert("el nombre ingresado es " + nombre ) 
