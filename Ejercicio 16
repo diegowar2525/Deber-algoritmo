@@ -1,0 +1,8 @@
+//Presentar la tabla de multiplicar de cualquier numero del 1 al 12
+let num1 = Math.round((Math.random())*10)
+let c=1,resultado
+while(c<=12){
+    resultado=num1*c
+    console.log(num1,"*",c,"=",resultado)
+    c=c+1
+}
