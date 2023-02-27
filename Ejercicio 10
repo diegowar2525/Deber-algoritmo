@@ -1,0 +1,10 @@
+//Dado diez numeros en un arreglo presentar los que tengan menos de 5 caracteres
+let arreglo=[100000,2030,2,3245,10000000,255,3232,12241242,0,34]
+        let i,numero
+        console.log("Numeros menores de 5 caracteres:")
+        for(i=0;i<arreglo.length;i++){
+        numero=arreglo[i]
+        if(numero.toString().length<5){
+            console.log(numero)
+        }
+ }
