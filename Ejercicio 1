@@ -1,0 +1,10 @@
+//Sumar 2 números siempre y cuando el primero sea mayor que el segundo
+let num1 = Math.round((Math.random())*10)
+console.log(num1)
+let num2 = Math.round((Math.random())*10)
+console.log(num2)
+let suma=0
+if(num1 > num2){
+    suma = num1+num2
+    console.log(suma)
+}
