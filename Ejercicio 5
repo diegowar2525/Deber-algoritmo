@@ -1,0 +1,5 @@
+//Dado un valor de compra presentar el total considerando un 12% de iva
+let valor = Math.round((Math.random())*100)
+console.log(valor)
+let total=valor*0.12
+console.log(total)
