@@ -1,0 +1,8 @@
+//Calcular el factorial de un número
+let num1 = Math.round((Math.random())*10)
+console.log(num1)
+let resultado=1, c=1
+for(c;c<=num1;c++){
+    resultado=resultado*c
+}
+console.log(resultado)
