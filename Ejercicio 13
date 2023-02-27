@@ -1,0 +1,12 @@
+//Dado un arreglo de numeros presentar los impares y al final la suma de los pares
+let arreglo=[1,5,2,10,6,3]
+     let i,suma=0,numero
+     for(i=0;i<arreglo.length; i++){
+        numero=arreglo[i]
+        if(numero %2 !=0){
+            console.log("Los numeros impares son: ",numero)
+        }else{
+            suma=suma+numero
+        }
+     }
+console.log("La suma de los pares es: ",suma)
