@@ -1,0 +1,10 @@
+//Presentar el mayor de dos numeros
+let num1 = Math.round((Math.random())*10)
+console.log(num1)
+let num2 = Math.round((Math.random())*10)
+console.log(num2)
+if(num1>num2){
+    console.log(num1)
+}else{
+    console.log(num2)
+}
