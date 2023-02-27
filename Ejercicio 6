@@ -1,0 +1,7 @@
+//Presentar 5 veces un nombre
+let nombre= "maría"
+console.log(nombre)
+console.log(nombre)
+console.log(nombre)
+console.log(nombre)
+console.log(nombre)
