@@ -1,0 +1,9 @@
+//Presentar los divisores de un numero
+let c
+let num1 = Math.round((Math.random())*10)
+    console.log(`Divisores del ${num1}:`)
+    for(c=1;c<num1;c++){
+        if(num1%c==0){
+        console.log(`El numero <${c}> es divisor`)
+           }
+}
