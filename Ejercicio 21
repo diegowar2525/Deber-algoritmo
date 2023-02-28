@@ -1,0 +1,8 @@
+//Calcular la serie de fibonacci dado un numero
+let a=0, b=1, c=1, cont=3, num1=8
+        console.log(a,b,c)
+        while(cont<num1){
+            a=b;b=c;c=a+b
+            console.log(c)
+            cont=cont+1
+ }
