@@ -1,0 +1,13 @@
+//Verfificar si un numero es primo o no
+let c,cont=0
+        let num1=Math.floor(Math.random()*100)
+        for(c=1;c<=num1;c++){
+            if(num1%c==0){
+                    cont=cont+1
+            }
+        }
+        if(cont==2){
+            console.log(`El numero ${num1} es primo`)
+        }else{
+            console.log(`El numero ${num1} no es primo`)
+}
