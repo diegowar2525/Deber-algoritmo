@@ -1,0 +1,9 @@
+//Dado un numero invertirlo
+let numero=23456,digito
+        console.warn("El numero es:", numero)
+        console.warn("El numero invertido es:")
+        while(numero>0){
+            digito=Math.floor(numero%10)
+            numero=Math.floor(numero/10)
+            console.log(digito)
+ }
